@@ -17,7 +17,7 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/linkedin-profile1.png'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -71,21 +71,21 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="How to use GatsbyJS with Web Audio API's"
+            title="How to use GatsbyJS with Web Audio API's."
             link="http://redraidermusic.com"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             This project is my entry into Web Audio API.
           </ProjectCard>
           <ProjectCard
-            title="How to build RESTful NodeJS API's"
+            title="How to build RESTful NodeJS API's."
             link="https://www.nodejsrestful.com"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             This project includes NodeJS/ExpressJS/MongoDB.
           </ProjectCard>
           <ProjectCard
-            title="How to build RESTful GraphQL API's"
+            title="How to build RESTful GraphQL API's."
             link="https://www.graphqlrestful.com"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
@@ -104,26 +104,22 @@ const Index = () => (
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
-          <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
-          </AboutSub>
+          <AboutSub>- Frontend Engineer - Greater Boston Area</AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          I am passionate about creating engaging, exciting user experiences and applications by utilizing modern
+          frameworks and technology--with an emphasis on modularized, component-driven, functional programming. More
+          importantly, I have extremely strong information gathering and research skills, which helps me quickly find
+          and analyze tools I need to get my job done.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:johnyu.programmer@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://www.linkedin.com/in/johnyu-programmer/">Linkedin</a> &{' '}
+            <a href="https://github.com/thejohnyu">Github</a>
           </ContactText>
         </Inner>
         <Footer>
