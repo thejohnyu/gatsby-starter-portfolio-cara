@@ -17,7 +17,7 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/linkedin-profile1.png'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -63,40 +63,40 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm John Yu.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I'm creating the best web experiences for the next generation of consumer-facing companies.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="How to use GatsbyJS with Web Audio API's."
+            link="http://redraidermusic.com"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            This project is my entry into Web Audio API.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="How to build RESTful NodeJS API's."
+            link="https://www.nodejsrestful.com"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            This project includes NodeJS/ExpressJS/MongoDB.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="How to build RESTful GraphQL API's."
+            link="https://www.graphqlrestful.com"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            This project is a introduction to GraphQL API's.
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="How to Build a Highly Scaleable React / Redux Ecommerce Website."
+            link="https://www.reactreduxecom.com"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            A fantasy ecommerce website built with modern web technologies.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -104,26 +104,22 @@ const Index = () => (
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
-          <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
-          </AboutSub>
+          <AboutSub>- Frontend Engineer - Greater Boston Area</AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          I am passionate about creating engaging, exciting user experiences and applications by utilizing modern
+          frameworks and technology--with an emphasis on modularized, component-driven, functional programming. More
+          importantly, I have extremely strong information gathering and research skills, which helps me quickly find
+          and analyze tools I need to get my job done.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:johnyu.programmer@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://www.linkedin.com/in/johnyu-programmer/">Linkedin</a> &{' '}
+            <a href="https://github.com/thejohnyu">Github</a>
           </ContactText>
         </Inner>
         <Footer>
